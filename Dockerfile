@@ -1,4 +1,5 @@
 FROM node
+
 CMD mkdir -p /app
 WORKDIR /app
 COPY . /app
